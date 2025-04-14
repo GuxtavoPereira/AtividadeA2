@@ -34,7 +34,7 @@ btn.addEventListener('mouseover', () => {
   btn.innerHTML = 'nao clique'
   btn.style.width = '150px' 
   btn.style.height = '150px'
-  container.style.backgroundImage = 'url(https://colunadofla.com/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-17-at-20.41.39.jpeg)'
+  // container.style.backgroundImage = 'url(https://colunadofla.com/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-17-at-20.41.39.jpeg)'
   container.style.backgroundSize = 'cover'
   container.style.backgroundPosition = 'center'
   container.style.backgroundRepeat = 'no-repeat'
@@ -47,7 +47,9 @@ btn.addEventListener('mouseout', () => {
   btn.innerHTML = 'oi'
   btn.style.width = '50px' 
   btn.style.height = '50px'
-  container.style.backgroundImage = 'url(https://bpb-eu-w2.wpmucdn.com/blogs.ucl.ac.uk/dist/9/186/files/2017/10/800px-Gibraltar_Barbary_Macaque.jpg);'
+  // container.style.backgroundImage = 'url(https://bpb-eu-w2.wpmucdn.com/blogs.ucl.ac.uk/dist/9/186/files/2017/10/800px-Gibraltar_Barbary_Macaque.jpg);'
+  container.style.backgroundColor = 'white'
+
   
 });
 
@@ -76,9 +78,10 @@ btn.style.margin = '0.5%'
 // 4. setTimeout
 // Esse método é usado para executar uma função após um determinado período de tempo.
 // Exemplo de uso:
-// setTimeout(() => {
-// console.log('Isso será exibido após 2 segundos');
-// }, 2000);
+setTimeout(() => {
+  alert('Bem Vindo ')
+}, 3000);
+
 // 5. createElement
 // Cria um novo elemento HTML.
 // Exemplo de uso:
