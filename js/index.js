@@ -117,6 +117,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+function trocarCor() {  
+    const botao = document.getElementById('curtir');  
+    if (botao.style.backgroundColor === 'red') {  
+        botao.style.backgroundColor = 'blue'; // Volta para azul  
+    } else {  
+        botao.style.backgroundColor = 'red'; // Muda para vermelho  
+    }  
+}  
+
+
 // 6. createTextNode
 // Cria um novo nó de texto.
 // Exemplo de uso:

@@ -344,3 +344,15 @@ footer {
     min-width: 100%;
   }
 }
+
+#curtir {  
+  background-color: blue; /* Cor inicial do botão */  
+  color: white; /* Cor do texto */  
+  padding: 10px 20px; /* Espaçamento interno */  
+  border: none; /* Sem borda */  
+  border-radius: 5px; /* Cantos arredondados */  
+  cursor: pointer; /* Cursor estilo ponteiro */  
+  font-size: 16px; /* Tamanho da fonte */  
+  width: 120px
+  
+  }
