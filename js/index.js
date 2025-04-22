@@ -9,12 +9,14 @@ oi();
 const tituLo = document.getElementById("tituloPost");
 const coteudo = document.querySelector("#coteudoPost");
 tituLo.innerHTML = "Título da Postagem";
-coteudo.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.";
+coteudo.innerHTML =
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.";
 
 const tituLo2 = document.getElementById("tituloPost2");
 const coteudo2 = document.querySelector("#coteudoPost2");
 tituLo2.innerHTML = "Título da Postagem2";
-coteudo2.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.";
+coteudo2.innerHTML =
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribuscorporis dolorum quisquam vitae libero quibusdam culpa velitrepellendus, deleniti pariatur sed amet, dolores eum fuga asperioresoptio, accusantium mollitia rem. Lorem ipsum dolor, sit ametconsectetur adipisicing elit. Ducimus quo, tenetur facere oloremquesoluta neque vitae, veniam ipsa doloribus deserunt rem? Fugiatveritatis excepturi quis dolorum iste vel perspiciatis? Quas? Loremipsum dolor sit amet consectetur adipisicing elit. Reiciendisminimasaepe odit! Necessitatibus dolorum pariatur ipsam, praesentium quieveniet laboriosam totam illo possimus quidem animi, voluptatum,fugacumque natus minima.";
 
 // const tituLo2 = document.getElementById("test");
 // tituLo2.innerHTML = "";
@@ -77,13 +79,6 @@ coteudo2.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 // btn.style.height = "50px";
 // btn.style.margin = "0.5%";
 
-// 4. setTimeout
-// Esse método é usado para executar uma função após um determinado período de tempo.
-// Exemplo de uso:
-// setTimeout(() => {
-//   alert("VAMPETA");
-// }, 3000);
-
 // 5. createElement
 // Cria um novo elemento HTML.
 // Exemplo de uso:
@@ -92,19 +87,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Elementos
   const searchBtn = document.getElementById("searchBtn");
   const userBtn = document.getElementById("userBtn");
-  const bellBtn = document.getElementById("bellBtn");
+  const sininhoBtn = document.getElementById("sininhoBtn");
 
   // Função para mostrar mensagem
-  function showMessage(message) {
-    // Cria elemento da mensagem
+  function mensagemPaia(message) {
     const msg = document.createElement("div");
     msg.className = "message-tooltip";
     msg.textContent = message;
-
-    // Adiciona ao corpo
     document.body.appendChild(msg);
 
-    // Remove após 3 segundos
+    // 4. setTimeout
+    // Esse método é usado para executar uma função após um determinado período de tempo.
+    // Exemplo de uso:
     setTimeout(function () {
       msg.remove();
     }, 3000);
@@ -112,89 +106,78 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Eventos para cada botão
   searchBtn.addEventListener("click", function () {
-    showMessage("Pesquisa em breve!");
+    mensagemPaia("Pesquisa em breve!");
   });
 
   userBtn.addEventListener("click", function () {
-    showMessage("Login em breve!");
+    mensagemPaia("Login em breve!");
   });
 
-  bellBtn.addEventListener("click", function () {
-    showMessage("Notificações em breve!");
+  sininhoBtn.addEventListener("click", function () {
+    mensagemPaia("Notificações em breve!");
   });
-  const commentForm = document.getElementById('comment-form');
-    const commentsContainer = document.getElementById('comments-container');
-    
-    commentForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Pegar valores do formulário
-        const name = document.getElementById('comment-name').value;
-        const text = document.getElementById('comment-text').value;
-        
-        // Criar elementos do comentário
-        const commentDiv = document.createElement('div');
-        commentDiv.setAttribute('class', 'comment');
-        
-        const authorP = document.createElement('p');
-        authorP.setAttribute('class', 'comment-author');
-        const authorText = document.createTextNode(name);
-        authorP.appendChild(authorText);
-        
-        const textP = document.createElement('p');
-        textP.setAttribute('class', 'comment-text');
-        const textNode = document.createTextNode(text);
-        textP.appendChild(textNode);
-        
-        // Montar estrutura do comentário
-        commentDiv.appendChild(authorP);
-        commentDiv.appendChild(textP);
-        
-        // Inserir novo comentário no topo da lista
-        if (commentsContainer.firstChild) {
-            commentsContainer.insertBefore(commentDiv, commentsContainer.firstChild);
-        } else {
-            commentsContainer.appendChild(commentDiv);
-        }
-        
-        // Limpar formulário
-        commentForm.reset();
-    });
+  const formComentarios = document.getElementById("comment-form");
+  const commentsContainer = document.getElementById("comments-container");
+
+  formComentarios.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Pegar valores do formulário
+    const name = document.getElementById("comment-name").value;
+    const text = document.getElementById("comment-text").value;
+
+    // Criar elementos do comentário
+    const commentDiv = document.createElement("div");
+    // 8. setAttribute
+    // Define um atributo em um elemento.
+    // Exemplo de uso:
+    commentDiv.setAttribute("class", "comment");
+    // 6. createTextNode
+    // Cria um novo nó de texto.
+    // Exemplo de uso:
+    const autorPost = document.createElement("p");
+    autorPost.setAttribute("class", "comment-autor");
+    const autorText = document.createTextNode(name);
+    autorPost.appendChild(autorText);
+
+    const textoAutor = document.createElement("p");
+    textoAutor.setAttribute("class", "comment-text");
+    const textNode = document.createTextNode(text);
+    // 7. appendChild
+    // Adiciona um elemento filho a um elemento pai.
+    // Exemplo de uso:
+    textoAutor.appendChild(textNode);
+
+    // Montar estrutura do comentário
+    commentDiv.appendChild(autorPost);
+    commentDiv.appendChild(textoAutor);
+
+    // Inserir novo comentário no topo da lista
+    if (commentsContainer.firstChild) {
+      // 9. insertBefore
+      // Insere um novo elemento antes de um elemento existente.
+      // Exemplo de uso:
+      commentsContainer.insertBefore(commentDiv, commentsContainer.firstChild);
+    } else {
+      commentsContainer.appendChild(commentDiv);
+    }
+
+    // Limpar formulário
+    formComentarios.reset();
+  });
 });
 
-function trocarCor() {  
-    const botao = document.getElementById('curtir');  
-    const texto = document.getElementById('textoLike');
-    if (botao.style.backgroundColor === 'teal') {  
-
-        botao.style.backgroundColor = 'white'; // Volta para azul  
-        botao.style.color = 'black'; // Muda para branco
-        texto.innerHTML = 'Curtir Postagem!'; // Muda o texto para "Curtido!"
-    } else {  
-        botao.style.backgroundColor = 'teal';
-        botao.style.color = 'white'; // Muda para vermelho  
-        texto.innerHTML = 'Curtido'; // Muda o texto para "Curtir"
-        texto.style.color = 'teal'; // Muda o texto para branco
-    }  
-  
-}  
-
-
-// 6. createTextNode
-// Cria um novo nó de texto.
-// Exemplo de uso:
-// const novoTexto = document.createTextNode('Olá, mundo!');
-// 7. appendChild
-// Adiciona um elemento filho a um elemento pai.
-// Exemplo de uso:
-// const corpo = document.container;
-// corpo.appendChild(novoDiv);
-// 8. setAttribute
-// Define um atributo em um elemento.
-// Exemplo de uso:
-// novoDiv.setAttribute('class', 'minha-classe');
-// 9. insertBefore
-// Insere um novo elemento antes de um elemento existente.
-// Exemplo de uso:
-// const elementoExistente = document.getElementById('meuTexto');
-// corpo.insertBefore(novoDiv, elementoExistente);
+function trocarCor() {
+  const botao = document.getElementById("curtir");
+  const texto = document.getElementById("textoLike");
+  if (botao.style.backgroundColor === "teal") {
+    botao.style.backgroundColor = "white"; // Volta para azul
+    botao.style.color = "black"; // Muda para branco
+    texto.innerHTML = "Curtir Postagem!"; // Muda o texto para "Curtir"
+  } else {
+    botao.style.backgroundColor = "teal";
+    botao.style.color = "white"; // Muda para vermelho
+    texto.innerHTML = "Curtido"; // Muda o texto para "Curtirdo"
+    texto.style.color = "teal"; // Muda o texto para vermelho
+  }
+}
