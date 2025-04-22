@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Atividade A2 - Esqueleto de Blog</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -16,9 +16,8 @@
     <header class="blog-header">
       <nav class="blog-nav">
         <div class="blog-logo">
-          <!-- Ícone SVG inline (recomendado para performance) -->
           <svg
-            class="book-icon"
+            class="livrinho-icon"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -31,13 +30,13 @@
               stroke-linejoin="round"
             />
           </svg>
-          <span>Blog Foda</span>
+          <span>Esqueleto de Blog</span>
         </div>
         <div class="blog-menu">
           <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><a href="#">Início</a></li>
+            <li><a href="#post">Post</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
           </ul>
         </div>
         <div class="blog-actions">
@@ -54,13 +53,83 @@
       </nav>
     </header>
 
-    <div class="container" id="container">
-      <h1 id="titulo"></h1>
+    <section class="img-principal">
+      <div class="container-titulo-blog">
+        <h1 class="titulo-blog">Esqueleto de Blog</h1>
+        <p class="subtitulo-blog">O melhor esqueleto de blog do Brasil</p>
+      </div>
+      <img
+        src="https://placehold.co/1200x750"
+        alt="Banner do Blog"
+        id="imagemPrincipal"
+      />
+    </section>
+
+    <!-- conteudo do blog -->
+
+    <article class="container" id="post">
+      <!-- <h1 id="titulo"></h1>
       <h1 id="test"></h1>
-      <h1 class="titulo3" name="titulo3"></h1>
-      <button id="btn"></button>
-      <button id="curtir" onclick="trocarCor()">CURTIR</button> 
-    </div>
+      <h1 class="titulo3" name="titulo3"></h1> -->
+      <!--  -->
+      <main class="post">
+        <h2 class="titulo-blog" id="tituloPost"></h2>
+        <p class="coteudo-blog" id="coteudoPost"></p>
+        <h2 class="titulo-blog" id="tituloPost2"></h2>
+        <p class="coteudo-blog" id="coteudoPost2"></p>
+      </main>
+      <!-- parte debaixo do site -->
+      <section class="options-post">
+        <div class="texto-like">
+          <p id="textoLike">Curtir Postagem!</p>
+          <button id="curtir" onclick="trocarCor()">
+            <i class="fa-regular fa-thumbs-up"></i>
+          </button>
+        </div>
+
+        <div class="compartilhar">
+          <span>Compartilhar:</span>
+          <div class="rede-sociall">
+            <div class="icon facebook">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+
+          <div class="rede-sociall">
+            <div class="icon instagram">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="rede-sociall">
+            <div class="icon twitter">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="rede-sociall">
+            <div class="icon whatsapp">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <section class="comments-section" id="comentarios">
+      <h2 class="comments-title">Comentários</h2>
+
+      <form id="comment-form" class="comment-form">
+        <div class="form-group">
+          <label for="comment-name">Nome:</label>
+          <input type="text" id="comment-name" required />
+        </div>
+        <div class="form-group">
+          <label for="comment-text">Comentário:</label>
+          <textarea id="comment-text" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar Comentário</button>
+      </form>
+
+      <div id="comments-container" class="comments-container"></div>
+    </section>
 
     <footer>
       <div class="container-footer">
@@ -110,24 +179,26 @@
 
           <div class="footer-col">
             <div class="footer-decoracao">
-              <h4>Links Úteis</h4>
-            </div>
-            <ul>
-              <li><a href="#">Voltar ao Topo</a></li>
-              <li><a href="#">Política de Privacidade</a></li>
-              <li><a href="#">Termos de Serviço</a></li>
-              <li><a href="#">FAQ</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <div class="footer-decoracao">
               <h4>Contato</h4>
             </div>
             <ul>
-              <li><i class="fas fa-envelope"></i> email@exemplo.com</li>
-              <li><i class="fas fa-phone"></i> (00) 0000-0000</li>
-              <li><i class="fas fa-map-marker-alt"></i> Endereço, 123</li>
+              <li><i class="fas fa-envelope"></i> email@blog.com</li>
+              <li><i class="fas fa-phone"></i> (12) 1234-5678</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Endereço, Rua Vampeta dos
+                Santos nº, 123
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-decoracao">
+              <h4>Link Util</h4>
+            </div>
+            <ul>
+              <li><a href="#">Voltar ao Topo</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
             </ul>
           </div>
         </div>
