@@ -116,32 +116,32 @@ document.addEventListener("DOMContentLoaded", function () {
   sininhoBtn.addEventListener("click", function () {
     mensagemPaia("Notificações em breve!");
   });
-  const formComentarios = document.getElementById("comment-form");
-  const commentsContainer = document.getElementById("comments-container");
+  const formComentarios = document.getElementById("comentario-form");
+  const comentariosContainer = document.getElementById("comentarios-container");
 
   formComentarios.addEventListener("submit", function (e) {
     e.preventDefault();
 
     // Pegar valores do formulário
-    const name = document.getElementById("comment-name").value;
-    const text = document.getElementById("comment-text").value;
+    const name = document.getElementById("comentario-name").value;
+    const text = document.getElementById("comentario-text").value;
 
     // Criar elementos do comentário
-    const commentDiv = document.createElement("div");
+    const comentarioDiv = document.createElement("div");
     // 8. setAttribute
     // Define um atributo em um elemento.
     // Exemplo de uso:
-    commentDiv.setAttribute("class", "comment");
+    comentarioDiv.setAttribute("class", "comentario");
     // 6. createTextNode
     // Cria um novo nó de texto.
     // Exemplo de uso:
     const autorPost = document.createElement("p");
-    autorPost.setAttribute("class", "comment-autor");
+    autorPost.setAttribute("class", "comentario-autor");
     const autorText = document.createTextNode(name);
     autorPost.appendChild(autorText);
 
     const textoAutor = document.createElement("p");
-    textoAutor.setAttribute("class", "comment-text");
+    textoAutor.setAttribute("class", "comentario-text");
     const textNode = document.createTextNode(text);
     // 7. appendChild
     // Adiciona um elemento filho a um elemento pai.
@@ -149,17 +149,17 @@ document.addEventListener("DOMContentLoaded", function () {
     textoAutor.appendChild(textNode);
 
     // Montar estrutura do comentário
-    commentDiv.appendChild(autorPost);
-    commentDiv.appendChild(textoAutor);
+    comentarioDiv.appendChild(autorPost);
+    comentarioDiv.appendChild(textoAutor);
 
     // Inserir novo comentário no topo da lista
-    if (commentsContainer.firstChild) {
+    if (comentariosContainer.firstChild) {
       // 9. insertBefore
       // Insere um novo elemento antes de um elemento existente.
       // Exemplo de uso:
-      commentsContainer.insertBefore(commentDiv, commentsContainer.firstChild);
+      comentariosContainer.insertBefore(comentarioDiv, comentariosContainer.firstChild);
     } else {
-      commentsContainer.appendChild(commentDiv);
+      comentariosContainer.appendChild(comentarioDiv);
     }
 
     // Limpar formulário

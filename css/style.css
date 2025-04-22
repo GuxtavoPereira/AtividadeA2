@@ -240,7 +240,7 @@ img {
 }
 
 /* Sessão de Comentários */
-.comments-section {
+.comentarios-section {
   margin: 3.5% 0;
   padding: 2rem;
   background-color: #fff;
@@ -249,7 +249,7 @@ img {
   margin: auto;
 }
 
-.comments-title {
+.comentarios-title {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: #24100e;
@@ -257,22 +257,22 @@ img {
   padding-bottom: 0.5rem;
 }
 
-.comment-form {
+.comentario-form {
   margin-bottom: 2rem;
 }
 
-.comment-form .form-group {
+.comentario-form .form-group {
   margin-bottom: 1rem;
 }
 
-.comment-form label {
+.comentario-form label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
-.comment-form input,
-.comment-form textarea {
+.comentario-form input,
+.comentario-form textarea {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ddd;
@@ -280,30 +280,30 @@ img {
   font-family: "Noto Sans", sans-serif;
 }
 
-.comment-form textarea {
+.comentario-form textarea {
   resize: vertical;
 }
 
-.comments-container {
+.comentarios-container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.comment {
+.comentario {
   background-color: white;
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.comment-autor {
+.comentario-autor {
   font-weight: bold;
   color: teal;
   margin-bottom: 0.5rem;
 }
 
-.comment-text {
+.comentario-text {
   color: #333;
   line-height: 1.5;
 }
