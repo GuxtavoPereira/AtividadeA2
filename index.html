@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- Configurações básicas do documento -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividade A2 - Esqueleto de Blog</title>
+
+    <!-- Links para folhas de estilo -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Biblioteca de ícones Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
-    <!-- header -->
-
+    <!-- Cabeçalho do blog com navegação -->
     <header class="blog-header">
       <nav class="blog-nav">
+        <!-- Logo do blog com ícone e texto -->
         <div class="blog-logo">
           <svg
             class="livrinho-icon"
@@ -32,6 +36,8 @@
           </svg>
           <span>Esqueleto de Blog</span>
         </div>
+
+        <!-- Menu de navegação principal -->
         <div class="blog-menu">
           <ul>
             <li><a href="#">Início</a></li>
@@ -39,6 +45,8 @@
             <li><a href="#comentarios">Comentarios</a></li>
           </ul>
         </div>
+
+        <!-- Ícones de ações do usuário -->
         <div class="blog-actions">
           <button id="searchBtn" class="action-icon">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -53,9 +61,10 @@
       </nav>
     </header>
 
+    <!-- Seção principal com banner e título -->
     <section class="img-principal">
       <div class="container-titulo-blog">
-        <h1 class="titulo-blog">Esqueleto de Blog</h1>
+        <h1 class="titulo-blog"  style="color: teal;">Esqueleto de Blog</h1>
         <p class="subtitulo-blog">O melhor esqueleto de blog do Brasil</p>
       </div>
       <img
@@ -65,20 +74,17 @@
       />
     </section>
 
-    <!-- conteudo do blog -->
-
+    <!-- Conteúdo principal do blog -->
     <article class="container" id="post">
-      <!-- <h1 id="titulo"></h1>
-      <h1 id="test"></h1>
-      <h1 class="titulo3" name="titulo3"></h1> -->
-      <!--  -->
+      <!-- Área onde o conteúdo do post será inserido dinamicamente -->
       <main class="post">
         <h2 class="titulo-blog" id="tituloPost"></h2>
         <p class="coteudo-blog" id="coteudoPost"></p>
         <h2 class="titulo-blog" id="tituloPost2"></h2>
         <p class="coteudo-blog" id="coteudoPost2"></p>
       </main>
-      <!-- parte debaixo do site -->
+
+      <!-- Seção de interação com o post (curtir e compartilhar) -->
       <section class="options-post">
         <div class="texto-like">
           <p id="textoLike">Curtir Postagem!</p>
@@ -87,6 +93,7 @@
           </button>
         </div>
 
+        <!-- Opções para compartilhar o post em redes sociais -->
         <div class="compartilhar">
           <span>Compartilhar:</span>
           <div class="rede-sociall">
@@ -113,9 +120,12 @@
         </div>
       </section>
     </article>
+
+    <!-- Seção de comentários -->
     <section class="comentarios-section" id="comentarios">
       <h2 class="comentarios-title">Comentários</h2>
 
+      <!-- Formulário para enviar novos comentários -->
       <form id="comentario-form" class="comentario-form">
         <div class="form-group">
           <label for="comentario-name">Nome:</label>
@@ -128,12 +138,15 @@
         <button type="submit" class="submit-button">Enviar Comentário</button>
       </form>
 
+      <!-- Container onde os comentários serão exibidos -->
       <div id="comentarios-container" class="comentarios-container"></div>
     </section>
 
+    <!-- Rodapé do site -->
     <footer>
       <div class="container-footer">
         <div class="row-footer">
+          <!-- Coluna com links para redes sociais -->
           <div class="footer-col">
             <div class="footer-decoracao">
               <h4>Redes Sociais</h4>
@@ -166,6 +179,7 @@
             </div>
           </div>
 
+          <!-- Coluna com informações sobre o blog -->
           <div class="footer-col">
             <div class="footer-decoracao">
               <h4>Sobre Nós</h4>
@@ -177,6 +191,7 @@
             </p>
           </div>
 
+          <!-- Coluna com informações de contato -->
           <div class="footer-col">
             <div class="footer-decoracao">
               <h4>Contato</h4>
@@ -190,6 +205,8 @@
               </li>
             </ul>
           </div>
+
+          <!-- Coluna com links úteis -->
           <div class="footer-col">
             <div class="footer-decoracao">
               <h4>Link Util</h4>
@@ -204,10 +221,13 @@
         </div>
       </div>
 
+      <!-- Direitos autorais -->
       <div class="footer-copyright">
         <p>&copy; 2023 Todos os direitos reservados</p>
       </div>
     </footer>
+
+    <!-- Script JavaScript do site -->
     <script src="./js/index.js"></script>
   </body>
 </html>
