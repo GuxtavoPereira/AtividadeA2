@@ -27,10 +27,9 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
+  height: auto;
   width: 50%;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 
 /* header */
@@ -158,7 +157,7 @@ img {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  margin: 4.5% auto;
+  margin: 1% auto 4.5% auto;
   border-radius: 10px;
 }
 
@@ -190,7 +189,6 @@ img {
   font-weight: 400;
   color: #24100e;
   margin-bottom: 3%;
-
 }
 
 .post {
@@ -232,10 +230,16 @@ img {
 }
 
 .comentarios-title {
-  font-size: 24px;
   margin-bottom: 24px;
   color: #24100e;
   border-bottom: 2px solid teal;
+  padding-bottom: 8px;
+}
+
+.comentarios-subtitle {
+  font-size: 22px;
+  margin-bottom: 28px;
+  color: #24100e;
   padding-bottom: 8px;
 }
 
@@ -302,7 +306,7 @@ img {
 
 footer {
   background-color: #ffffff;
-  color: #333333;
+  color: #24100e;
   padding: 50px 0 20px;
   margin-top: auto;
   border-top: 1px solid #e0e0e0;
@@ -355,7 +359,7 @@ footer {
 }
 
 .footer-col ul li a {
-  color: #555555;
+  color: #24100e;
   display: block;
   transition: all 0.3s ease;
 }
@@ -366,7 +370,7 @@ footer {
 }
 
 .footer-col p {
-  color: #555555;
+  color: #24100e;
   line-height: 1.6;
 }
 
@@ -391,6 +395,15 @@ footer {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+}
+
+.rede-sociall a {
+  color: #24100e;
+}
+
+.rede-sociall a:hover {
+  color: teal;
+  padding-left: 5px;
 }
 
 .rede-sociall .icon.facebook i {
